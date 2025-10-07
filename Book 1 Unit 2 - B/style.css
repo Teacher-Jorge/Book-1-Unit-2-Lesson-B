@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Bree+Serif&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playpen+Sans:wght@100..800&family=Shantell+Sans:ital,wght@0,300..800;1,300..800&family=Story+Script&display=swap');
+
+body {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.heading {
+    font-family: 'bangers';
+    color: rgb(120, 187, 255);
+    font-size: 50px;
+    text-shadow: 1px 1px 1px black;
+    margin-top: 20px;
+}
+
+.instructions {
+    font-family: 'story script';
+    font-size: 30px;
+    color: rgb(207, 0, 190);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.container {
+    margin-bottom: 10px;
+}
+
+.lines {
+    font-family: 'story script';
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 50px;
+}
+
+.inputs {
+    border-style: none;
+    border-bottom: 1px solid blue;
+    text-align: center;
+    width: 400px;
+    height: 30px;
+    font-size: 30px;
+    font-family: 'story script';
+    color: rgb(120, 0, 150);
+}
+
+.correct-img {
+    visibility: hidden;
+}
+
+.numbers {
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 255, 0);
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+    font-size: 25px;
+    margin-right: 5px;
+   
+}
+
+#picture1 {
+    display: grid;
+    position: absolute;
+    top: 120px;
+    left: 200px;
+    font-family: 'bangers';
+    font-size: 30px;
+    text-shadow: 1px 1px 1px black;
+    color: rgb(0, 136, 255);
+    box-shadow: 1px 1px 2px black;
+     border-radius: 10px;
+}
+
+#picture2 {
+    display: grid;
+    position: absolute;
+    top: 390px;
+    left: 200px;
+    font-family: 'bangers';
+    font-size: 30px;
+    text-shadow: 1px 1px 1px black;
+    color: rgb(0, 136, 255);
+    box-shadow: 1px 1px 2px black;
+     border-radius: 10px;
+}
+
+#picture3 {
+    display: grid;
+    position: absolute;
+    top: 660px;
+    left: 200px;
+    font-family: 'bangers';
+    font-size: 30px;
+    text-shadow: 1px 1px 1px black;
+    color: rgb(0, 136, 255);
+    box-shadow: 1px 1px 3px black;
+     border-radius: 10px;
+}
+
+#picture4 {
+    display: grid;
+    position: absolute;
+    top: 120px;
+    left: 1450px;
+    font-family: 'bangers';
+    font-size: 30px;
+    text-shadow: 1px 1px 1px black;
+    color: rgb(0, 136, 255);
+    box-shadow: 1px 1px 2px black;
+     border-radius: 10px;
+}
+
+#picture5 {
+    display: grid;
+    position: absolute;
+    top: 390px;
+    left: 1450px;
+    font-family: 'bangers';
+    font-size: 30px;
+    text-shadow: 1px 1px 1px black;
+    color: rgb(0, 136, 255);
+    box-shadow: 1px 1px 2px black;
+     border-radius: 10px;
+}
+
+#picture6 {
+    display: grid;
+    position: absolute;
+    top: 660px;
+    left: 1450px;
+    font-family: 'bangers';
+    font-size: 30px;
+    text-shadow: 1px 1px 1px black;
+    color: rgb(0, 136, 255);
+    box-shadow: 1px 1px 3px black;
+     border-radius: 10px;
+}
+
+img {
+    border-radius: 10px;
+}
+
